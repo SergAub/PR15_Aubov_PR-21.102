@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">PR15_Aubov_PR-21.102</string>
+    <string name="browse_title">Videos by Your Company</string>
+    <string name="related_movies">Related Videos</string>
+    <string name="grid_view">Grid View</string>
+    <string name="error_fragment">Error Fragment</string>
+    <string name="personal_settings">Personal Settings</string>
+    <string name="watch_trailer_1">Watch trailer</string>
+    <string name="watch_trailer_2">FREE</string>
+    <string name="rent_1">Rent By Day</string>
+    <string name="rent_2">From $1.99</string>
+    <string name="buy_1">Buy and Own</string>
+    <string name="buy_2">AT $9.99</string>
+    <string name="movie">Movie</string>
+
+    <string name="signin"><b>sign in</b></string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="album"><b>Альбомы</b></string>
+    <string name="pop"><b>Самые популярные песни 2020</b></string>
+    <string name="Xabib"><b>Ягода малинка - ХАБИБ</b></string>
+    <string name="song">Ягода малинка, оп-оп-оп\nКрутит головой, залетает в топ</string>
+
+    <!-- Error messages -->
+    <string name="error_fragment_message">An error occurred</string>
+    <string name="dismiss_error">Dismiss</string>
+    <string name="title_activity_album">Leanback Album</string>
+    <string name="title_activity_good_songs">Leanback GoodSongs</string>
+    <string name="title_activity_pop_songs">Leanback PopSongs</string>
+</resources>

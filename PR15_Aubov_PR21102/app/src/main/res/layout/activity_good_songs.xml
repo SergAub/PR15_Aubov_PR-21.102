@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_browse_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark_purple"
+    tools:context=".GoodSongs"
+    tools:deviceIds="tv"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Xabib"
+            android:textColor="@color/text_red"
+            android:textSize="36dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="260dp"/>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="873dp"
+            android:layout_height="367dp"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/image_3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="904dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_weight="1"
+                android:text="@string/song"
+                android:textSize="30dp"/>
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/image_1"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
